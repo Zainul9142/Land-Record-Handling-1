@@ -1,0 +1,28 @@
+# Node dependencies & build outputs
+node_modules/
+dist/
+build/
+.cache/
+
+# Python cache & databases
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & IDE
+.env
+.env.local
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Generated files
+backend/generated_complaints/*.pdf
+backend/generated_reports/*.pdf
+*.log
